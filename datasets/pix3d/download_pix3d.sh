@@ -6,10 +6,10 @@
 
 cd "${0%/*}"
 
-wget http://pix3d.csail.mit.edu/data/pix3d.zip
-unzip -qq pix3d.zip
+# wget http://pix3d.csail.mit.edu/data/pix3d.zip
+# unzip -qq pix3d.zip
 
-BASE=https://dl.fbaipublicfiles.com/meshrcnn
+# BASE=https://dl.fbaipublicfiles.com/meshrcnn
 
 wget $BASE/pix3d/pix3d_s1_train.json
 wget $BASE/pix3d/pix3d_s1_test.json
